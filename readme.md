@@ -8,6 +8,4 @@
 #### install of gimp and mpv
 #### links to download of Tor Browser, RStudio and IntelliJ 
 #### install of nvm
-
-# To be done
-#### install of Mojave-dark theme and ePapirus Icons
+#### link to Mojave-dark theme and ePapirus Icons
