@@ -1,6 +1,14 @@
-sudo apt update
-sudo apt install gcc python3 python3-pip python3-virtualenv openjdk-8-jdk vim mpv firefox
+sudo apt update && apt upgrade
 
-echo "Papirus:  https://www.xfce-look.org/p/1166289/"
-echo "Mojave dark: https://www.xfce-look.org/p/1275087/"
+sudo apt install gcc
+sudo apt install python3 python3-pip python3-virtualenv
+sudo apt install vim mpv
+sudo apt install firefox-esr
+
+cd ..
+mkdir .themes
+mkdir .icons
+virtualenv dataScience
+
+echo "Dracula Theme:  https://draculatheme.com/gtk"
 echo "Tor Browser:  https://www.torproject.org/download/"
