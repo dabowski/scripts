@@ -1,8 +1,9 @@
-sudo apt update && apt upgrade
+sudo apt update
 
 sudo apt install gcc
 sudo apt install python3 python3-pip python3-virtualenv
-sudo apt install vim mpv
+sudo apt install r-base
+sudo apt install neovim mpv
 sudo apt install firefox-esr
 
 cd ..
