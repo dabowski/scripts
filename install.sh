@@ -1,16 +1,14 @@
 sudo apt update
-sudo apt install xorg xinit i3 lightdm kitty alsa-utils pulseaudio
-sudo apt install python3-pip python3-virtualenv r-base texlive-full pandoc neovim thunar mpv ffmpeg
-sudo apt install firefox
-sudo apt install obs-studio gimp
+sudo apt install python3-pip python3-virtualenv texlive-full pandoc neovim gimp 
+sudo apt install gnome-tweaks gnome-shell-extentions
 
 mkdir ~/.config/nvim
-mkdir ~/.config/i3
-mkdir ~/.config/i3status
 
 mv .vimrc ~/.config/nvim/init.vim
-cp i3config ~/.config/i3/config
-mv i3statusconfig ~/.config/i3status/config
+mv .bashrc ~/.bashrc
+cd ~ && virtualenv lab
 
-echo "https://www.blender.org/download/"
-echo "https://www.rstudio.com/products/rstudio/download/"
+sudo snap install pycharm-community intellij-community --classic
+sudo snap install docker hugo kdenlive obs-studio 
+
+echo "Do not forget to download theme, icons and wallpaper"
