@@ -17,14 +17,19 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'python-mode/python-mode'
 
+" R
+Plugin 'jalvesaq/Nvim-R'
+Plugin 'gaalcaras/ncm-R'
+
+" Web Dev
+Plugin 'mattn/emmet-vim'
+
 " git
 Plugin 'tpope/vim-fugitive'
 Plugin 'mhinz/vim-signify'
 
 " Themes
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'ghifarit53/tokyonight-vim'
-Plugin 'dracula/vim'
 
 call vundle#end()
 
@@ -33,7 +38,8 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-colorscheme dracula
+set background=dark
+colorscheme jellybeans
 
 filetype plugin indent on
 
