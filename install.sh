@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Sy
-sudo pacman -S python-pip python-virtualenv r texlive-base pandoc neovim htop lxappearance arandr feh alsa-utils gimp ffmpeg gcc-fortran libreoffice
+sudo pacman -S python-pip python-virtualenv r texlive-core pandoc neovim htop lxappearance arandr firefox feh alsa-utils gimp ffmpeg gcc-fortran libreoffice
 
 mkdir ~/.config/nvim
 mkdir ~/.config/i3
